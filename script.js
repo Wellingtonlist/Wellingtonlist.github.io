@@ -1,20 +1,14 @@
+// Blake Wellington
+// Spring 2017
+// Web233 Javascript
+// Date: 4-27-17
+// Shopping List Version Final
+
 //v 4.0 save / get array via cookies
 //v 4.0 read cookie on load and display
 
 //v4.0 
 
-window.onload = function() {
- alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
- populateshoppinglistonload();
-  displayShoppinglists();
-    clearFocus();
-};
-
-function about()
-{
-     alert("Welcome to 'Shopping List' App!\n\nCreated by Rock Valley College\n**Javascript(Web233) Students**\n\nQuestions?\nemail Professor Chuck Konkol\nc.konkol@rockvalleycollege.edu\n\nRegister @ RockValleyCollege.edu");
-
-}
 
 //read cookie and return
 function readCookie(name) {
@@ -245,6 +239,10 @@ function deleteShoppingCart(position) {
   displayShoppinglists();
   displayShoppingCart();
 }
+
+
+
+
 
 
 
